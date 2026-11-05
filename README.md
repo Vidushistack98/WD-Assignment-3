@@ -1,7 +1,7 @@
 # Lab 3 – Responsive Portfolio Website
 
 ## Project Description
-This project is a one-page responsive personal portfolio website created using HTML5 and CSS3. It showcases personal information, skills, projects and contact details.
+This project is a one-page responsive personal portfolio website created using HTML and CSS. It showcases personal information, skills, projects and contact details.
 
 The website uses Flexbox, CSS Grid, media queries and CSS animations to create a simple, modern and responsive design.
 
