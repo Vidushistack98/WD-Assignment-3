@@ -104,23 +104,17 @@ button {
     padding: 10px;
     border: none;
 }
-
-/* Footer */
 footer {
     background-color: #465344;
     color: white;
     text-align: center;
     padding: 15px;
 }
-
-/* Tablet */
 @media (max-width: 900px) {
     .skills {
         grid-template-columns: 1fr 1fr;
     }
 }
-
-/* Mobile */
 @media (max-width: 600px) {
     header {
         flex-direction: column;
