@@ -1,8 +1,10 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -10,10 +12,11 @@
 <body>
 
     <!-- Header -->
-    <header>
+    <header id="home">
         <h2>My Portfolio</h2>
 
         <nav>
+            <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
@@ -21,76 +24,133 @@
         </nav>
     </header>
 
-    <!-- Home -->
-    <div class="home">
-        <div>
-            <h1>Hi, I am Vidu</h1>
-            <h2>B.Tech Student</h2>
-            <p>Interested in AI, Machine Learning and Web Development.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+            <h1>Hi, I'm Vidushi!</h1>
+
+            <h2>
+                A <span> B.Tech AI & ML Student </span>
+            </h2>
+
+            <p>
+                Exploring technology, creativity and the world of
+                web development.
+            </p>
+
+            <a href="#about" class="button">Know More</a>
         </div>
 
-        <div>
+        <div class="hero-image">
             <img src="https://i.pinimg.com/736x/3a/03/70/3a0370834f4c272981716d7c47f1961f.jpg"
-                 alt="Profile Image">
+                 alt="My profile picture">
         </div>
-    </div>
 
-    <!-- About -->
-    <section id="about">
-        <h2>About Me</h2>
-
-        <p>
-            I am a first-year B.Tech student learning Python, C++,
-            HTML and CSS. I am interested in Artificial Intelligence
-            and Machine Learning. I enjoy learning new technologies
-            and creating projects.
-        </p>
     </section>
 
-    <!-- Skills -->
-    <section id="skills">
-        <h2>My Skills</h2>
+    <!-- About Section -->
+    <section id="about">
 
-        <div class="skills">
-            <div>
+        <h2 class="section-title">About Me</h2>
+
+        <p>
+            I am a first-year B.Tech student specialising in
+            Artificial Intelligence and Machine Learning.
+            I am currently learning programming languages like
+            Python and C++, along with HTML and CSS.
+
+            I enjoy exploring new technologies, solving problems
+            and creating projects that combine creativity with
+            practical ideas. I am interested in web development
+            and learning how AI can be used in everyday life.
+        </p>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
                 <h3>Python</h3>
                 <p>Beginner</p>
             </div>
 
-            <div>
+            <div class="skill-card">
+                <h3>C++</h3>
+                <p>Beginner</p>
+            </div>
+
+            <div class="skill-card">
                 <h3>HTML</h3>
                 <p>Beginner</p>
             </div>
 
-            <div>
+            <div class="skill-card">
                 <h3>CSS</h3>
                 <p>Beginner</p>
             </div>
+
+            <div class="skill-card">
+                <h3>Artificial Intelligence</h3>
+                <p>Learning</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Problem Solving</h3>
+                <p>Developing</p>
+            </div>
+
         </div>
+
     </section>
 
-    <!-- Projects -->
+    <!-- Projects Section -->
     <section id="projects">
-        <h2>My Projects</h2>
 
-        <div class="projects">
-            <div>
-                <h3>Expense Tracker</h3>
-                <p>A simple Python project.</p>
-            </div>
+        <h2 class="section-title">My Projects</h2>
 
-            <div>
+        <div class="projects-container">
+
+            <div class="project-card">
                 <h3>Portfolio Website</h3>
-                <p>A personal website made using HTML and CSS.</p>
+                <p>
+                    A personal website created using HTML and CSS
+                    to showcase my skills and projects.
+                </p>
             </div>
+
+            <div class="project-card">
+                <h3>Expense Tracker</h3>
+                <p>
+                    A basic Python project designed to record
+                    and manage daily expenses.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Smart Food Delivery Box</h3>
+                <p>
+                    A smart delivery box concept designed to
+                    monitor and maintain food temperature.
+                </p>
+            </div>
+
         </div>
+
     </section>
 
-    <!-- Contact -->
+    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Me</h2>
+
+        <h2 class="section-title">Contact Me</h2>
 
         <form>
+
             <label>Name</label>
             <input type="text" placeholder="Enter your name">
 
@@ -100,23 +160,18 @@
             <label>Message</label>
             <textarea placeholder="Write your message"></textarea>
 
-            <button type="submit">Send</button>
+            <button type="submit">Send Message</button>
+
         </form>
+
     </section>
 
     <!-- Footer -->
     <footer>
         <p>© 2026 Vidushi. All rights reserved.</p>
+
+        <a href="#home">Back to Top ↑</a>
     </footer>
 
 </body>
-</html>
-
-
-
-    <!-- Back to Top -->
-    <a href="#home" class="back-to-top">↑</a>
-
-</body>
-
 </html>
